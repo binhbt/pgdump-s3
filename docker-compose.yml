@@ -5,7 +5,7 @@ services:
         build:
             context: .
             dockerfile: pgdump-s3/Dockerfile
-        image: kidssy/pgdump-s3:1.0.0
+        image: leo/pgdump-s3:1.0.0
         environment:
             POSTGRESQL_URI : postgres://user:pass@host:port/dbname
             AWS_ACCESS_KEY_ID: ...
