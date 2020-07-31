@@ -70,7 +70,8 @@ You need to add a user with the following policies. Be sure to change `your_buck
 
 ## Extra environmnet
 
-- `MAX_BACKUPS` - Default not set. If set doing it keeps the last n backups in /backup
+- `MAX_LOCAL_BACKUPS` - Default not set. If set doing it keeps the last n backups in /backup  
+- `MAX_S3_BACKUPS` - Default not set. If set doing it keeps the last n backups in S3  
 
 ## License
 

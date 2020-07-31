@@ -13,6 +13,7 @@ services:
             AWS_DEFAULT_REGION: us-west-1
             S3_BUCKET: ...
             DUMP_OBJECT_PREFIX: test_
-            MAX_BACKUPS: 10
+            MAX_S3_BACKUPS: 10
+            MAX_LOCAL_BACKUPS: 3
             BACKUP_CRON_SCHEDULE: 0 2 * * *
         restart: always    
